@@ -32,3 +32,6 @@ a {
     text-align: center;
     width: 100%;
 } 
+#moving-butterfly {
+    transform: rotate(290deg);
+}
