@@ -7,15 +7,14 @@ body {
 
 h1 {
     font-size: 70pt;
-    margin-bottom: 80pt;
     color: chartreuse;
     font-family: 'Srisakdi', cursive;
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: blue;
+        margin-bottom: -55pt;
 }
-
-h2 {
-    text-align: center;
+.butterfly { 
+    width: 25%;
 }
 
 p {
@@ -32,4 +31,4 @@ a {
     text-decoration: none;
     text-align: center;
     width: 100%;
-}
+} 
