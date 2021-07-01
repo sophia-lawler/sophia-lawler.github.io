@@ -35,3 +35,10 @@ a {
 #moving-butterfly {
     transform: rotate(290deg);
 }
+.about-text {
+    font-size: 20pt;
+    color:blue;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+}
