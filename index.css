@@ -42,3 +42,14 @@ a {
     margin-right: 100px;
     text-align: justify;
 }
+.a {
+   padding: 20px;
+   -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: blue;
+}
+.star {
+    color:blue;
+    font-size: 40px;
+    margin-bottom: -5px;
+    margin-top: -5px;
+}
