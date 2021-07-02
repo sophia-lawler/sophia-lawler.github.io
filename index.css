@@ -11,7 +11,10 @@ h1 {
     font-family: 'Srisakdi', cursive;
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: blue;
-        margin-bottom: -55pt;
+        
+}
+.main-header {
+    margin-bottom: -85px;
 }
 .butterfly { 
     width: 25%;
@@ -41,6 +44,10 @@ a {
     margin-left: 100px;
     margin-right: 100px;
     text-align: justify;
+    padding: 40px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: chartreuse;
 }
 .a {
    padding: 20px;
@@ -53,3 +60,22 @@ a {
     margin-bottom: -5px;
     margin-top: -5px;
 }
+.home-button {
+    font-size: 30px;
+    text-align: left;
+    width: 100%;
+    margin-right: 20px;
+}
+.home-button:hover {
+    background-color:blue;
+  }
+.github {
+position: relative; right;
+}
+footer { display:flex: blue; margin: 10px; padding: 0mm;}
+
+.email 
+{
+     font-size: 10pt;
+        text-align: left;
+        padding: 10px;}
