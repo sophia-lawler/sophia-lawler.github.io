@@ -36,7 +36,6 @@ a {
     width: 100%;
 } 
 .a:hover {
-    transition: ease-in-out;
     color: blue;
 }
 #moving-butterfly {
@@ -75,6 +74,9 @@ a {
     background-color:blue;
   }
 .github {
-position: relative; right;
+position: relative;
+}
+.sprints:hover {
+    color: blue;
 }
 
