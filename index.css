@@ -41,7 +41,7 @@ a {
 #moving-butterfly {
     transform: rotate(290deg);
 }
-.about-text {
+.text {
     font-size: 20pt;
     color:blue;
     margin-left: 100px;
@@ -76,7 +76,20 @@ a {
 .github {
 position: relative;
 }
+.bandcamp {
+    position: relative;
+    }
 .sprints:hover {
     color: blue;
 }
-
+.text-questions {
+    font-size: 22pt;
+    color:blue;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    padding: 40px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: blue;
+}
