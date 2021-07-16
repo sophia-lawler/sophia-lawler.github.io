@@ -101,3 +101,21 @@ position: relative;
     border-style: solid;
     border-color: blue;
 }
+.reflectionindex {
+    font-size: 20pt;
+    color: chartreuse;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    text-shadow: 1px 1px blue;
+}
+.reflectionindex:hover {
+    color: blue;
+}
+.rstar {
+    color:blue;
+    font-size: 20px;
+    margin-bottom: -5px;
+    margin-top: -5px;
+}
