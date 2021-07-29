@@ -108,7 +108,7 @@ position: relative;
     text-decoration: none;
     text-align: center;
     width: 100%;
-    text-shadow: 1px 1px blue;
+    text-shadow: 1px 1px rgb(255, 0, 179);
 }
 .reflectionindex:hover {
     color: blue;
@@ -118,4 +118,12 @@ position: relative;
     font-size: 20px;
     margin-bottom: -5px;
     margin-top: -5px;
+}
+.reflectionNavigation {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 40px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: chartreuse;
 }
