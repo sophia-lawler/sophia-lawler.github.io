@@ -164,14 +164,14 @@ function startGame () {
   for (let i = 0; i < board.cells.length; i++ ) {
     board.cells[i].isMine = Math.random() < 0.3
   }
-    for (let i = 0; i < board.cells.length; i++ ) {
-      board.cells[i].surroundingMines = countSurroundingMines(board.cells[i]);
-      console.log(board.cells)
-    }
-    document.addEventListener("click", checkForWin())
-    document.addEventListener('contextmenu', checkForWin())
+  for (let i = 0; i < board.cells.length; i++ ) {
+    board.cells[i].surroundingMines = countSurroundingMines(board.cells[i]);
+    console.log(board.cells)
+  }
   // Don't remove this function call: it makes the game work!
   lib.initBoard()
+  document.addEventListener("click", checkForWin)
+  document.addEventListener('contextmenu', checkForWin)
 }
 // Define this function to look for a win condition:
 //
